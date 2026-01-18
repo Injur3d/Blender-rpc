@@ -58,7 +58,7 @@ def connectToDiscord(currentTry = 0):
         connectToDiscord(currentTry=currentTry+1)
     except rpc.InvalidID:
         print(f"{logPrefix} Discord bot ID invalid. Please report to developer on Github")
-        print(f"{logPrefix} https://github.com/Protinon/Blender-rpc/issues")
+        print(f"{logPrefix} https://github.com/Injur3d/Blender-rpc/issues")
     except rpc.DiscordNotFound:
         print(f"{logPrefix} Discord was not found. Aborting.")
     except rpc.InvalidPipe:
