@@ -9,10 +9,10 @@ from .pypresence import pypresence as rpc
 bl_info = {
     "name": "Blender Rich Presence",
     "description": "Discord Rich Presence support for Blender",
-    "author": "Protinon",
+    "author": "Injur3d",
     "version": (1, 3, 0),
     "blender": (4, 0, 0),
-    "tracker_url": "https://github.com/Protinon/Blender-rpc",
+    "tracker_url": "https://github.com/Injur3d/Blender-rpc",
     "category": "System",
 }
 
